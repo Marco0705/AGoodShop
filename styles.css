@@ -1,0 +1,62 @@
+body {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid gainsboro;
+}
+#contenedor {
+  display: flex;
+  flex-direction: row;
+}
+#contenedorTable {
+  margin-top: 50px;
+  width: 70%;
+}
+#cesta {
+  width: 30%;
+  text-align: center;
+  background-color: aliceblue;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.miTabla {
+  table-layout: fixed;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  padding: 20px;
+  border-bottom: 3px solid gainsboro;
+}
+td {
+  padding: 20px;
+  border-bottom: 2px solid gainsboro;
+}
+.sku {
+  font-size: smaller;
+  color: #888;
+}
+button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.cantidad-input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  width: 50px;
+  text-align: center;
+}
